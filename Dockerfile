@@ -14,7 +14,6 @@ RUN apk add py3-pip && \
 WORKDIR /opt/hilda_service
 ADD hilda_hug_api.py /opt/hilda_service/
 
-RUN pip3 install pudb ipython # TODO: rm after debug
 
 EXPOSE 8080
 
